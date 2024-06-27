@@ -219,3 +219,11 @@ w
 G.idea/sonarlint/issuestore/a/7/a7048acc21ccc6151b17c04ba4bcc21f72df77b8,6\5\65cfc4e5fffed0e2f65f6f24e9ecdd6a58a71f98
 b
 2microservice/.mvn/wrapper/maven-wrapper.properties,c\0\c085959105baaa16791db9b3038b391596896e2a
+L
+microservice/gateway/pom.xml,8\4\84be747ee070186ffe833c3de6a2bc1ace79c2cf
+Å
+Qmicroservice/gateway/src/main/java/com/victorferx/gateway/GatewayApplication.java,c\a\ca4170262089140aa83e5cdef5c38f116e8639be
+N
+microservice/discovery/pom.xml,d\a\da260f1eb496cbca962efa5b0966af526a721f33
+á
+Wmicroservice/discovery/src/main/java/com/victorferx/discovery/DiscoveryApplication.java,d\c\dc04ec6bc8ca66d741c9b158e2a1c81795ef13cb

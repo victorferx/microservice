@@ -19,10 +19,10 @@ public class OrderService {
     private final WebClient.Builder webClientBuilder;
 
     public void add(OrderRequest request) {
-        // TODO: Check products in inventary
+        // Check products in inventary
         BaseResponse result = this.webClientBuilder.build()
                 .post()
-                .uri("http://localhost:8082/api/inventory/in-stock")
+                .uri("lb://inventory/api/inventory/in-stock")
                 .bodyValue(request.getOrderItems())
                 .retrieve()
                 .bodyToMono(BaseResponse.class)
