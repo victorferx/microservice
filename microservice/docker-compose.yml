@@ -1,0 +1,41 @@
+version: "3"
+services:
+  db-invertory:
+    container_name: db-invertory
+    image: mysql:latest
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: dbInventory
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123
+      MYSQL_ROOT_PASSWORD: admin123.
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+  db-order:
+    container_name: db-order
+    image: mysql:latest
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: dbOrder
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123
+      MYSQL_ROOT_PASSWORD: admin123.
+    ports:
+      - 3307:3306
+    expose:
+      - 3307
+  db-product:
+    container_name: db-product
+    image: mysql:latest
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: dbProduct
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin123
+      MYSQL_ROOT_PASSWORD: admin123.
+    ports:
+      - 3308:3306
+    expose:
+      - 3308
